@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("5168460.jpg");
+    height: 125vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+    background-image: linear-gradient(to top, #407cff, #dae7ff);
+    width: 1000px;
+    height: 550px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+
+}
+
+.contents {
+    background-color: #ffffff;
+    width: 400px;
+    height: 550px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container img {
+    width: 600px;
+    height: 550px;
+}
+
+.title h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+
+}
+
+.title img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+
+.profile img {
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.profile h1 {
+    font-size: 16px;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.input-1 input {
+    background: url("C:\Users\Isabella\OneDrive\Imágenes\Escritorio\Fundamentos IDB 2\LabFundamentos\avatar.png") no-repeat left center;
+    background-size: 20px 20px;
+    opacity: 0.3;
+}
+
+.input-2 input {
+    background: url("C:\Users\Isabella\OneDrive\Imágenes\Escritorio\Fundamentos IDB 2\LabFundamentos\bloqueo-alternativo.png") no-repeat left center;
+    background-size: 14px 14px;
+    opacity: 0.3;
+    background-position: 3px;
+}
+
+.input-3 input {
+    background: url("C:\Users\Isabella\OneDrive\Imágenes\Escritorio\Fundamentos IDB 2\LabFundamentos\key.png") no-repeat left center;
+    background-size: 14px 14px;
+    opacity: 0.3;
+    background-position: 3px;
+}
+
+.login input {
+    width: 110%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -25px;
+    margin-top: 10px;
+    border: 2px solid #e2e2e2;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.login input ::placeholder {
+    color: black;
+    opacity: 1;
+    margin: 10px;
+}
+
+.input-3 {
+    position: relative;
+    width: 250px;
+}
+
+
+.verification-code {
+    position: absolute;
+    right: -10px;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: black;
+    pointer-events: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    position: relative
+}
+
+.login-btn {
+    padding: 10px 50px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+.forgot-password {
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.flecha{
+    position: absolute;
+    left: 25rem;
+    bottom: -1rem;
+    z-index: 1;
+}
+
+
+.personita{
+    position: absolute;
+    bottom: -1rem;
+    left: 30rem;
+    z-index: 1;
+}
